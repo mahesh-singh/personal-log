@@ -1,6 +1,6 @@
 baseURL = "https://maheshlogs.netlify.app/"
 languageCode = "en-us"
-title = "Ink"
+title = "Mahesh's personal blog"
 theme = "ink"
 paginate = 5
 

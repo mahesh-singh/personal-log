@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mahesh&#39;s personal blog</title>
+    <link>https://maheshlogs.netlify.app/tags/</link>
+    <description>Recent content in Tags on Mahesh&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first-post</title>
+      <link>https://maheshlogs.netlify.app/tags/first-post/</link>
+      <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
+      
+      <guid>https://maheshlogs.netlify.app/tags/first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test-post</title>
+      <link>https://maheshlogs.netlify.app/tags/test-post/</link>
+      <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
+      
+      <guid>https://maheshlogs.netlify.app/tags/test-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/first-post/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/my-own-post/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/test-post/</loc>
+    <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/about/</loc>
+    <lastmod>2019-04-19T21:37:58+05:30</lastmod>
+  </url>
+  
+</urlset>

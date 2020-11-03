@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test-post on Mahesh&#39;s personal blog</title>
+    <link>https://maheshlogs.netlify.app/tags/test-post/</link>
+    <description>Recent content in test-post on Mahesh&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.netlify.app/tags/test-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Own Post</title>
+      <link>https://maheshlogs.netlify.app/posts/my-own-post/</link>
+      <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
+      
+      <guid>https://maheshlogs.netlify.app/posts/my-own-post/</guid>
+      <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
+    </item>
+    
+  </channel>
+</rss>
