@@ -8,4 +8,4 @@ I’m particularly interested in building and manage high performing software en
 
 Apart from computers, I really enjoy reading, walking, playing with my daughters.
 
-If you have any questions or just want to chat, you can an email singh.mahesh@gmail.com.
+If you have any questions or just want to chat, you can shoot me an [email](mailto:singh.mahesh@gmail.com).
