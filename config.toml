@@ -1,7 +1,7 @@
 baseURL = "https://maheshlogs.netlify.app/"
 languageCode = "en-us"
 title = "Mahesh's personal blog"
-theme = "ink"
+theme = "carlisle-master"
 paginate = 5
 
 copyright = "© Copyright notice"

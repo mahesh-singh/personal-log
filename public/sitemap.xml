@@ -3,12 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://maheshlogs.netlify.app/tags/first-post/</loc>
+    <loc>https://maheshlogs.netlify.app/</loc>
     <lastmod>2020-10-18T08:57:37+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://maheshlogs.netlify.app/</loc>
+    <loc>https://maheshlogs.netlify.app/tags/first-post/</loc>
     <lastmod>2020-10-18T08:57:37+05:30</lastmod>
   </url>
   
@@ -35,6 +36,66 @@
   <url>
     <loc>https://maheshlogs.netlify.app/about/</loc>
     <lastmod>2019-04-19T21:37:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maheshlogs.netlify.app/posts/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
