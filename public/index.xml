@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mahesh&#39;s personal blog</title>
-    <link>https://maheshlogs.netlify.app/</link>
+    <link>https://maheshlogs.dev/</link>
     <description>Recent content on Mahesh&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Own Post</title>
-      <link>https://maheshlogs.netlify.app/posts/my-own-post/</link>
+      <link>https://maheshlogs.dev/posts/my-own-post/</link>
       <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/posts/my-own-post/</guid>
+      <guid>https://maheshlogs.dev/posts/my-own-post/</guid>
       <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://maheshlogs.netlify.app/about/</link>
+      <link>https://maheshlogs.dev/about/</link>
       <pubDate>Fri, 19 Apr 2019 21:37:58 +0530</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/about/</guid>
+      <guid>https://maheshlogs.dev/about/</guid>
       <description>This is my about us page</description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://maheshlogs.netlify.app/posts/markdown-syntax/</link>
+      <link>https://maheshlogs.dev/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/posts/markdown-syntax/</guid>
+      <guid>https://maheshlogs.dev/posts/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rich Content</title>
-      <link>https://maheshlogs.netlify.app/posts/rich-content/</link>
+      <link>https://maheshlogs.dev/posts/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/posts/rich-content/</guid>
+      <guid>https://maheshlogs.dev/posts/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://maheshlogs.netlify.app/posts/placeholder-text/</link>
+      <link>https://maheshlogs.dev/posts/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/posts/placeholder-text/</guid>
+      <guid>https://maheshlogs.dev/posts/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://maheshlogs.netlify.app/posts/emoji-support/</link>
+      <link>https://maheshlogs.dev/posts/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/posts/emoji-support/</guid>
+      <guid>https://maheshlogs.dev/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     

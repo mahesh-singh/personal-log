@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mahesh&#39;s personal blog</title>
-    <link>https://maheshlogs.netlify.app/tags/</link>
+    <link>https://maheshlogs.dev/tags/</link>
     <description>Recent content in Tags on Mahesh&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>first-post</title>
-      <link>https://maheshlogs.netlify.app/tags/first-post/</link>
+      <link>https://maheshlogs.dev/tags/first-post/</link>
       <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/first-post/</guid>
+      <guid>https://maheshlogs.dev/tags/first-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test-post</title>
-      <link>https://maheshlogs.netlify.app/tags/test-post/</link>
+      <link>https://maheshlogs.dev/tags/test-post/</link>
       <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/test-post/</guid>
+      <guid>https://maheshlogs.dev/tags/test-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css</title>
-      <link>https://maheshlogs.netlify.app/tags/css/</link>
+      <link>https://maheshlogs.dev/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/css/</guid>
+      <guid>https://maheshlogs.dev/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>html</title>
-      <link>https://maheshlogs.netlify.app/tags/html/</link>
+      <link>https://maheshlogs.dev/tags/html/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/html/</guid>
+      <guid>https://maheshlogs.dev/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>https://maheshlogs.netlify.app/tags/markdown/</link>
+      <link>https://maheshlogs.dev/tags/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/markdown/</guid>
+      <guid>https://maheshlogs.dev/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://maheshlogs.netlify.app/tags/themes/</link>
+      <link>https://maheshlogs.dev/tags/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/themes/</guid>
+      <guid>https://maheshlogs.dev/tags/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://maheshlogs.netlify.app/tags/privacy/</link>
+      <link>https://maheshlogs.dev/tags/privacy/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/privacy/</guid>
+      <guid>https://maheshlogs.dev/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://maheshlogs.netlify.app/tags/shortcodes/</link>
+      <link>https://maheshlogs.dev/tags/shortcodes/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/shortcodes/</guid>
+      <guid>https://maheshlogs.dev/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>text</title>
-      <link>https://maheshlogs.netlify.app/tags/text/</link>
+      <link>https://maheshlogs.dev/tags/text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/text/</guid>
+      <guid>https://maheshlogs.dev/tags/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emoji</title>
-      <link>https://maheshlogs.netlify.app/tags/emoji/</link>
+      <link>https://maheshlogs.dev/tags/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maheshlogs.netlify.app/tags/emoji/</guid>
+      <guid>https://maheshlogs.dev/tags/emoji/</guid>
       <description></description>
     </item>
     
