@@ -1,6 +1,6 @@
 # Hi, I’m Mahesh Singh.
 
-**I’m an engineering manager, a software engineer and everything in between. **
+**I’m an engineering manager, a software engineer and everything in between.**
 
 I've been a professional software engineer since 2003 and I build and manage high performing software engineering teams at the Three Pillar Global.
 
