@@ -17,5 +17,14 @@
       <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
     </item>
     
+    <item>
+      <title>notes</title>
+      <link>https://maheshlogs.dev/notes/notes/</link>
+      <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
+      
+      <guid>https://maheshlogs.dev/notes/notes/</guid>
+      <description>NOtes</description>
+    </item>
+    
   </channel>
 </rss>
