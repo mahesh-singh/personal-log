@@ -1,6 +1,6 @@
 # Hi, I’m Mahesh.
 
-**I’m an engineering manager, a software engineer and everything in between.**
+**I build web products and lead engineers. I’m an engineering manager, a software engineer and everything in between.**
 
 I've been a professional software engineer since 2003 and building and managing high performing software engineering teams at the 3Pillar Global.
 
