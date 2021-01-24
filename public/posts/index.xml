@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 18 Oct 2020 08:57:37 +0530</lastBuildDate><atom:link href="https://maheshlogs.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Own Post</title>
-      <link>https://maheshlogs.dev/posts/my-own-post/</link>
-      <pubDate>Sun, 18 Oct 2020 08:57:37 +0530</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/my-own-post/</guid>
-      <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://maheshlogs.dev/posts/markdown-syntax/</link>
@@ -51,6 +42,15 @@
       
       <guid>https://maheshlogs.dev/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design data intensive application chapter 1 Notes</title>
+      <link>https://maheshlogs.dev/posts/design-data-intensive-application-chapter-1-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maheshlogs.dev/posts/design-data-intensive-application-chapter-1-notes/</guid>
+      <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
     </item>
     
   </channel>
