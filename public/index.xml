@@ -14,9 +14,9 @@
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</guid>
-      <description>In following week I am going to post my personal notes from the book Design data intensive applications.
- Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval  Chapter 01 - Reliable, scalable, and maintainable applications Following are the building blocks which use by typical data intensive applications
- store data in database caching data for remembering pre-compute result indexes for faster search messaging for async processing by other applications batch processing for crunching large amount of data in background  In general database, messaging system, caching all store data but they all serves different purpose.</description>
+      <description>Whenever I read a book, I try to underline things and later try to convert into digital notes. It almost become two phase revision of the book. These notes are from Martin Kleppmann&amp;rsquo;s book: Designing Data-Intensive Applications.
+Disclaimers:
+ These notes are not a substitute of the book. These notes are from my understanding of the topic and typed manually (Yes I prefer physical book over digital one) . There might be the case when I missed something.</description>
     </item>
     
     <item>

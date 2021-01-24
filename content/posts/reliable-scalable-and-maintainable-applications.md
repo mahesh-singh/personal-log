@@ -8,11 +8,18 @@ tags = [
 ]
 +++
 
-In following week I am going to post my personal notes from the book Design data intensive applications.
+Whenever I read a book, I try to underline things and later try to convert into digital notes. It almost become two phase revision of the book. 
+These notes are from Martin Kleppmann's book: Designing Data-Intensive Applications. 
 
+Disclaimers:
+* These notes are not a substitute of the book. 
+* These notes are from my understanding of the topic and typed manually (Yes I prefer physical book over digital one) . There might be the case when I missed something.
+  
+
+## Table of content
 * Chapter 01 - Reliable Scalable and Maintainable Applications
-* Chapter 02 - Data Model and Query Language
-* Chapter 03 - Storage and Retrieval
+* Chapter 02 - Data Model and Query Language (coming soon...)
+* Chapter 03 - Storage and Retrieval (coming soon...)
 
 
 # Chapter 01 - Reliable, scalable, and maintainable applications
