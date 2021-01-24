@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter01 - Reliable Scalable and Maintainable Applications</title>
+      <link>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</guid>
+      <description>In following week I am going to post my personal notes from the book Design data intensive applications.
+ Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval  Chapter 01 - Reliable, scalable, and maintainable applications Following are the building blocks which use by typical data intensive applications
+ store data in database caching data for remembering pre-compute result indexes for faster search messaging for async processing by other applications batch processing for crunching large amount of data in background  In general database, messaging system, caching all store data but they all serves different purpose.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://maheshlogs.dev/about/</link>
@@ -51,15 +62,6 @@
       
       <guid>https://maheshlogs.dev/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Design data intensive application chapter 1 Notes</title>
-      <link>https://maheshlogs.dev/posts/design-data-intensive-application-chapter-1-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/design-data-intensive-application-chapter-1-notes/</guid>
-      <description>What my thought on hugo, looks like its not that simple that it sound. It has its own learning curve. I tried different theme and but few themes are not working out of the box.</description>
     </item>
     
   </channel>

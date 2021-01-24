@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="">
+
+
+    <title>Chapter01 - Reliable Scalable and Maintainable Applications | Mahesh&#39;s personal blog</title>
+    <link rel="canonical" href="https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/" />
+
+    
+    <meta property="og:url" content="https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/" />
+    <meta property="og:title" content="Chapter01 - Reliable Scalable and Maintainable Applications" />
+    <meta property="og:description" content="In following week I am going to post my personal notes from the book Design data intensive applications.
+ Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval  Chapter 01 - Reliable, scalable, and maintainable applications Following are the building blocks which use by typical data intensive applications
+ store data in database caching data for remembering pre-compute result indexes for faster search messaging for async processing by other applications batch processing for crunching large amount of data in background  In general database, messaging system, caching all store data but they all serves different purpose." />
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chapter01 - Reliable Scalable and Maintainable Applications">
+    <meta name="twitter:description" content="In following week I am going to post my personal notes from the book Design data intensive applications.
+ Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval  Chapter 01 - Reliable, scalable, and maintainable applications Following are the building blocks which use by typical data intensive applications
+ store data in database caching data for remembering pre-compute result indexes for faster search messaging for async processing by other applications batch processing for crunching large amount of data in background  In general database, messaging system, caching all store data but they all serves different purpose.">
+
+    
+</head>
+
+<body class="type-page">
+    <main aria-role="main">
+        <header>
+    <div class="home">
+        <a href="/">Home</a>
+    </div>
+    <nav>
+        <a href="/posts/">posts</a>
+        <a href="/about/">about</a>
+        <a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRyCHzQOtOTOjxKHRcumeaa7LHUHER6PJPN_c3MIvzr_oE_FWLzp7xEBdcjOoLkSFygnJYr8ze8UeXV/pub">resume</a>
+    </nav>
+</header>
+
+
+        
+
+<div class="hero inverted">
+    <h1>Chapter01 - Reliable Scalable and Maintainable Applications</h1>
+    <div class="meta">
+        <div class="meta-item date desktop" itemprop="datepublished">22 January 2021</div>
+        <div class="meta-item date mobile" itemprop="datepublished">22 Jan 2021</div>
+
+        
+        <div class="meta-item readtime" itemprop="duration">5 min read</div>
+        
+    </div>
+</div>
+<article>
+    <p>In following week I am going to post my personal notes from the book Design data intensive applications.</p>
+<ul>
+<li>Chapter 01 - Reliable Scalable and Maintainable Applications</li>
+<li>Chapter 02 - Data Model and Query Language</li>
+<li>Chapter 03 - Storage and Retrieval</li>
+</ul>
+<h1 id="chapter-01---reliable-scalable-and-maintainable-applications">Chapter 01 - Reliable, scalable, and maintainable applications</h1>
+<p>Following are the building blocks which use by typical data intensive applications</p>
+<ul>
+<li>store data in database</li>
+<li>caching data for remembering pre-compute result</li>
+<li>indexes for faster search</li>
+<li>messaging for async processing by other applications</li>
+<li>batch processing for crunching large amount of data in background</li>
+</ul>
+<p>In general database, messaging system, caching all store data but they all serves different purpose. There are new systems which again blurring the boundaries like redis which store data on the same time its also provide queuing while Apache Kafka is a messaging queue which provide database like durability guaranty.</p>
+<p>Important concerns for most of the software system</p>
+<p><strong>Reliability</strong> - System should work as per expected even when it face some kind failures like hardware/software fault, human error etc.</p>
+<p><strong>Scalability</strong> - As system grows there should be reasonable way to handle the growth.</p>
+<p><strong>Maintainability</strong> -  As system getting old lots of people contribute to the system. As system getting older, adding changes should be productive.</p>
+<h2 id="reliability">Reliability</h2>
+<p><em>Continue to work correctly, even when things go wrong.</em></p>
+<p><strong>Fault</strong> - When things can&rsquo;t work as expected.</p>
+<p><strong>Fault tolerance (or resilience)</strong> - When system handle expected faults called fault tolerance.</p>
+<p><strong>Failure</strong> - Failure are different from fault, when an entire system stop working that&rsquo;s called failure where fault is a system misbehave in certain condition.</p>
+<p>To test system&rsquo;s fault tolerance, deliberately introduce faults in system like randomly killing individual process and check impact on other systems.</p>
+<p><strong>Hardware fault</strong></p>
+<ul>
+<li>Reduce by adding redundancy in hardware.</li>
+<li>Use software fault-tolerance techniques or use in addition to hardware redundancy.
+<strong>Software errors</strong>: Software errors normally have cascading effect and error in one system cause error in another system.</li>
+<li>Measure, monitor and analyze system behavior in production.</li>
+</ul>
+<p><strong>Human error</strong>: Configuration error by operators is leading cause of outrage.</p>
+<ul>
+<li>Design system in a way that minimize opportunity for error.</li>
+<li>Test, test and test from unit test to integration test to manual testing.</li>
+<li>Quick and easy recovery from human error like rollback of configuration changes to roll out new code gradually.</li>
+<li>Set up detail monitoring (performance, error rate). This is also called telemetry.</li>
+</ul>
+<h2 id="scalability">Scalability</h2>
+<blockquote>
+<p>System&rsquo;s ability to cope with increased load.</p>
+</blockquote>
+<p>Scalability means considering questions like</p>
+<ul>
+<li>&ldquo;If the system grows in a particular way, what are the options for coping with growth&rdquo;</li>
+<li>&ldquo;How can we add computing resources to handle the additional load?&rdquo;</li>
+</ul>
+<h3 id="describing-load">Describing load</h3>
+<p><strong>Load parameter</strong> Load can be describe with few numbers.
+- Request per second for web server
+- Response time
+- Ratio of read to write in DB
+- Number of simultaneous active uses in chat room
+- Hit rate on a cache<br>
+Twitter example:</p>
+<ul>
+<li>Post tweet: 4.6k request/second on average, over 12k request/sec at peak</li>
+<li>Home timeline: 300k request/sec</li>
+</ul>
+<h3 id="describing-performance">Describing performance</h3>
+<ul>
+<li>
+<p>When you increase a load parameter and the keep the system resources unchanged, how the performance of your system affected?</p>
+</li>
+<li>
+<p>When you increase the load parameter, how much resources you need to increase if you want to keep performance unchanged?</p>
+</li>
+<li>
+<p>Note: Batch processing systems like hadoop you care about <em>throughput</em> (number of record process per second). For web system you care about response time.</p>
+</li>
+</ul>
+<p>Note: <em><strong>Latency and response time:</strong></em> Response time is what client see. Latency is the duration that a request is waiting to handle.</p>
+<p>Even making same request again and again, you&rsquo;ll get a slightly different response time every time. That&rsquo;s why response time is not a single number but distributed values that you can measure.</p>
+<p>Average or mean response time is not a good metrics as it doesn&rsquo;t tell how many users actually experience this delay.</p>
+<p><strong>Percentiles:</strong>  If 95th percentile response time is 1.5 sec than means 95 out 100 request take less then 1.5 second and 5 out of 100 request take more than 1.5 seconds.</p>
+<p>Ex. Amazon describe requirement of response time of internal services in term of 99.9th percentile though it only affects 1 in 1000 request but customers with the slowest request have are often those customers who have most data and they&rsquo;re the most valuable customers.</p>
+<p>Requests could be fast individually but one slow request could slow down all the other requests. It takes just one slow call to make the entire end-user request slow. Tail latency amplification.</p>
+<p>Percentiles are often used in SLOs (Service Level Objectives) and SLAs (Service Level Agreements)</p>
+<h3 id="approach-to-coping-with-load">Approach to coping with Load</h3>
+<ul>
+<li>Scaling up (vertical scaling)</li>
+<li>Scaling out (horizontal scaling)</li>
+</ul>
+<p><em>elastic</em> means they can automatically add computing resource when they detect a load increased. They are useful if load is highly unpredictable.</p>
+<p>Manual scaled system are simpler and may have fewer operational surprises.</p>
+<p>There is no such thing as a generic, one size fit for all scalable architecture. The problem may be the volume of reads, the volumes of write, the volume of data to store, the complexity of the data, the response time requirements, the access pattern, or usually some mixture of all od these plus many more issues.</p>
+<p>Ex. a system design to handle 100,000 request/sec each in 1kb in size, looks very different form a system that is design for 3 request/min each 2 GB in size, even though the two system have the same data throughput.</p>
+<h2 id="maintainability">Maintainability</h2>
+<blockquote>
+<p>Majority of the cost of the system is not in its initial development but ongoing maintenance.</p>
+</blockquote>
+<p>Design principle for software systems</p>
+<ul>
+<li>Operability: Make it easy for operation team.
+<ul>
+<li>Visibility of runtime behavior</li>
+<li>Documentation</li>
+</ul>
+</li>
+<li>Simplicity: Make it simple for new engineer in team.</li>
+<li>Evolvability: Make it easy to make changes in system for future requirement.</li>
+</ul>
+
+
+    
+    <hr/>
+    <p>
+        <p class="prevInSection">
+            
+            &larr;
+            <a href="https://maheshlogs.dev/posts/markdown-syntax/"><em>Markdown Syntax Guide</em></a>
+            
+        </p>
+        <p class="nextInSection">
+            
+        </p>
+    </p>
+    
+</article>
+
+
+
+        <footer>
+    <div class="left">
+    </div>
+    <div class="right">
+    </div>
+</footer>
+
+    </main>
+</body>
+
+</html>

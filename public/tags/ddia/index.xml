@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on Mahesh&#39;s personal blog</title>
-    <link>https://maheshlogs.dev/tags/notes/</link>
-    <description>Recent content in notes on Mahesh&#39;s personal blog</description>
+    <title>ddia on Mahesh&#39;s personal blog</title>
+    <link>https://maheshlogs.dev/tags/ddia/</link>
+    <description>Recent content in ddia on Mahesh&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/tags/ddia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter01 - Reliable Scalable and Maintainable Applications</title>
       <link>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</link>
