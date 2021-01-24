@@ -23,15 +23,13 @@ Disclaimers:
 * Chapter 03 - Storage and Retrieval (coming soon...)
 
 
-# Chapter 01 - Reliable, scalable, and maintainable applications
-
 Following are the building blocks which use by typical data intensive applications
 
-* store data in database
-* caching data for remembering pre-compute result
-* indexes for faster search
-* messaging for async processing by other applications 
-* batch processing for crunching large amount of data in background
+* Store data in database
+* Caching data for remembering pre-compute result
+* Indexes for faster search
+* Messaging for async processing by other applications 
+* Batch processing for crunching large amount of data in background
 
 In general database, messaging system, caching all store data but they all serves different purpose. There are new systems which again blurring the boundaries like redis which store data on the same time its also provide queuing while Apache Kafka is a messaging queue which provide database like durability guaranty.
 
@@ -133,6 +131,4 @@ Design principle for software systems
   * Visibility of runtime behavior
   * Documentation
 * Simplicity: Make it simple for new engineer in team.
-* Evolvability: Make it easy to make changes in system for future requirement.
-
-
+* Evolvability: Make it easy to make changes in system for future requirement.s
