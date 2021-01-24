@@ -23,6 +23,8 @@ Disclaimers:
 * Chapter 03 - Storage and Retrieval (coming soon...)
 
 
+# Chapter 01 - Reliable, scalable, and maintainable applications
+
 Following are the building blocks which use by typical data intensive applications
 
 * Store data in database
@@ -75,6 +77,7 @@ Scalability means considering questions like
 ### Describing load
 
 **Load parameter** Load can be describe with few numbers. 
+
 * Request per second for web server
 * Response time
 * Ratio of read to write in DB
@@ -82,6 +85,7 @@ Scalability means considering questions like
 * Hit rate on a cache  
 
 Twitter example: 
+
 * Post tweet: 4.6k request/second on average, over 12k request/sec at peak 
 * Home timeline: 300k request/sec
 
@@ -131,4 +135,6 @@ Design principle for software systems
   * Visibility of runtime behavior
   * Documentation
 * Simplicity: Make it simple for new engineer in team.
-* Evolvability: Make it easy to make changes in system for future requirement.s
+* Evolvability: Make it easy to make changes in system for future requirement.
+
+
