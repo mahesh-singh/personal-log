@@ -18,11 +18,12 @@ In following week I am going to post my personal notes from the book Design data
 # Chapter 01 - Reliable, scalable, and maintainable applications
 
 Following are the building blocks which use by typical data intensive applications
-- store data in database
-- caching data for remembering pre-compute result
-- indexes for faster search
-- messaging for async processing by other applications 
-- batch processing for crunching large amount of data in background
+
+* store data in database
+* caching data for remembering pre-compute result
+* indexes for faster search
+* messaging for async processing by other applications 
+* batch processing for crunching large amount of data in background
 
 In general database, messaging system, caching all store data but they all serves different purpose. There are new systems which again blurring the boundaries like redis which store data on the same time its also provide queuing while Apache Kafka is a messaging queue which provide database like durability guaranty.
 
@@ -36,7 +37,7 @@ Important concerns for most of the software system
 
 ## Reliability
 
-*Continue to work correctly, even when things go wrong.*
+> Continue to work correctly, even when things go wrong.
 
 **Fault** - When things can't work as expected.
 
@@ -68,14 +69,15 @@ Scalability means considering questions like
 ### Describing load
 
 **Load parameter** Load can be describe with few numbers. 
-    - Request per second for web server
-    - Response time
-    - Ratio of read to write in DB
-    - Number of simultaneous active uses in chat room
-    - Hit rate on a cache  
+* Request per second for web server
+* Response time
+* Ratio of read to write in DB
+* Number of simultaneous active uses in chat room
+* Hit rate on a cache  
+
 Twitter example: 
-- Post tweet: 4.6k request/second on average, over 12k request/sec at peak 
-- Home timeline: 300k request/sec
+* Post tweet: 4.6k request/second on average, over 12k request/sec at peak 
+* Home timeline: 300k request/sec
 
 ### Describing performance
 
@@ -118,10 +120,11 @@ Ex. a system design to handle 100,000 request/sec each in 1kb in size, looks ver
 > Majority of the cost of the system is not in its initial development but ongoing maintenance.
 
 Design principle for software systems
-- Operability: Make it easy for operation team.
-  - Visibility of runtime behavior
-  - Documentation
-- Simplicity: Make it simple for new engineer in team.
-- Evolvability: Make it easy to make changes in system for future requirement.
+
+* Operability: Make it easy for operation team.
+  * Visibility of runtime behavior
+  * Documentation
+* Simplicity: Make it simple for new engineer in team.
+* Evolvability: Make it easy to make changes in system for future requirement.
 
 

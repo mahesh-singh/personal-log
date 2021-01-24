@@ -78,7 +78,9 @@
 <p><strong>Scalability</strong> - As system grows there should be reasonable way to handle the growth.</p>
 <p><strong>Maintainability</strong> -  As system getting old lots of people contribute to the system. As system getting older, adding changes should be productive.</p>
 <h2 id="reliability">Reliability</h2>
-<p><em>Continue to work correctly, even when things go wrong.</em></p>
+<blockquote>
+<p>Continue to work correctly, even when things go wrong.</p>
+</blockquote>
 <p><strong>Fault</strong> - When things can&rsquo;t work as expected.</p>
 <p><strong>Fault tolerance (or resilience)</strong> - When system handle expected faults called fault tolerance.</p>
 <p><strong>Failure</strong> - Failure are different from fault, when an entire system stop working that&rsquo;s called failure where fault is a system misbehave in certain condition.</p>
@@ -107,13 +109,15 @@
 <li>&ldquo;How can we add computing resources to handle the additional load?&rdquo;</li>
 </ul>
 <h3 id="describing-load">Describing load</h3>
-<p><strong>Load parameter</strong> Load can be describe with few numbers.
-- Request per second for web server
-- Response time
-- Ratio of read to write in DB
-- Number of simultaneous active uses in chat room
-- Hit rate on a cache<br>
-Twitter example:</p>
+<p><strong>Load parameter</strong> Load can be describe with few numbers.</p>
+<ul>
+<li>Request per second for web server</li>
+<li>Response time</li>
+<li>Ratio of read to write in DB</li>
+<li>Number of simultaneous active uses in chat room</li>
+<li>Hit rate on a cache</li>
+</ul>
+<p>Twitter example:</p>
 <ul>
 <li>Post tweet: 4.6k request/second on average, over 12k request/sec at peak</li>
 <li>Home timeline: 300k request/sec</li>
