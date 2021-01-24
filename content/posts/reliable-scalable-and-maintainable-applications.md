@@ -12,6 +12,7 @@ Whenever I read a book, I try to underline things and later try to convert into 
 These notes are from Martin Kleppmann's book: Designing Data-Intensive Applications. 
 
 Disclaimers:
+
 * These notes are not a substitute of the book. 
 * These notes are from my understanding of the topic and typed manually (Yes I prefer physical book over digital one) . There might be the case when I missed something.
   
