@@ -19,7 +19,7 @@ Disclaimers:
 
 ## Table of content
 * Chapter 01 - Reliable Scalable and Maintainable Applications
-* Chapter 02 - Data Model and Query Language (coming soon...)
+* (Chapter 02 - Data Model and Query Language)[./data-model-and-query-language/]
 * Chapter 03 - Storage and Retrieval (coming soon...)
 
 
