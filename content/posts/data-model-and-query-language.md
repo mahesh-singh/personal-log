@@ -8,6 +8,6 @@ tags = [
 ]
 +++
 
-# Chapter-02 Data model and query language
+
 
 This is a content from ch 02
