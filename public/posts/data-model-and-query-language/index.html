@@ -16,11 +16,17 @@
     
     <meta property="og:url" content="https://maheshlogs.dev/posts/data-model-and-query-language/" />
     <meta property="og:title" content="Chapter-02 Data model and query language" />
-    <meta property="og:description" content="This is a content from ch 02 - updates" />
+    <meta property="og:description" content="Table of content  Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval (coming soon&hellip;)  Relational model vs Document model Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).
+NoSQL - Not only SQL
+Need of NoSQL
+ Greater scalability Free and open source Desire for a more dynamic and expressive data model Schema flexibility  Polyglot persistence" />
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Chapter-02 Data model and query language">
-    <meta name="twitter:description" content="This is a content from ch 02 - updates">
+    <meta name="twitter:description" content="Table of content  Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval (coming soon&hellip;)  Relational model vs Document model Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).
+NoSQL - Not only SQL
+Need of NoSQL
+ Greater scalability Free and open source Desire for a more dynamic and expressive data model Schema flexibility  Polyglot persistence">
 
     
 </head>
@@ -48,12 +54,89 @@
         <div class="meta-item date mobile" itemprop="datepublished">6 Feb 2021</div>
 
         
-        <div class="meta-item readtime" itemprop="duration">1 min read</div>
+        <div class="meta-item readtime" itemprop="duration">4 min read</div>
         
     </div>
 </div>
 <article>
-    <p>This is a content from ch 02 - updates</p>
+    <h2 id="table-of-content">Table of content</h2>
+<ul>
+<li><a href="../reliable-scalable-and-maintainable-applications">Chapter 01 - Reliable Scalable and Maintainable Applications</a></li>
+<li>Chapter 02 - Data Model and Query Language</li>
+<li>Chapter 03 - Storage and Retrieval (coming soon&hellip;)</li>
+</ul>
+<h2 id="relational-model-vs-document-model">Relational model vs Document model</h2>
+<p>Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).</p>
+<p>NoSQL - Not only SQL</p>
+<p><strong>Need of NoSQL</strong></p>
+<ul>
+<li>Greater scalability</li>
+<li>Free and open source</li>
+<li>Desire for a more dynamic and expressive data model</li>
+<li>Schema flexibility</li>
+</ul>
+<p><em>Polyglot persistence</em></p>
+<p><strong>Many to One and Many to Many relationship</strong>:
+In both the model related items are referenced by unique identifier, which is called foreign key relational model and document reference in document model. Relational model requires join and document model requires follow-up queries to fetch the records.</p>
+<p><strong>Schema on Read and Schema on Write</strong>: Schema on read applies on document model where where there is not need to fixed schema definition in database. Where Scheme on Write applies to relational database where fixed scheme is required in database.</p>
+<p><strong>Data locality for query</strong>: There are time when large amount of data require on same time like while fetching product also fetch all the features of the product. Document model is more appropriate in this case. But on the same time if you needs few field than its a wasteful. Updating the large document usually also require the recreate the document.
+Now there are few relational databases which allowing same kind of features where table&rsquo;s rows should be nested within a parent table.
+Column family databases have similar purpose.</p>
+<h2 id="declarative-vs-imperative-query-language-for-data">Declarative vs Imperative (Query language for data)</h2>
+<p><strong>Imperative:</strong> Imperative language tell the computer a certain operation in certain order. Most of the programming languages are imperative.</p>
+<p><strong>Declarative:</strong> Declarative query language like SQL, you only define pattern, condition and transformation (sorting, grouping etc). Query optimizer will decide how this data will be fetched. It hides implementation details and this helps query optimizer to introduce performance improvement without requiring any changes to queries. They can also perform better in parallel execution because queries only define pattern not the algorithm.</p>
+<p>CSS, XSL are also declarative query languages.</p>
+<p><em><strong>MapReduce:</strong></em> MapReduce is neither a declarative or fully imperative but somewhere in between, logic of query expressed with code snipped which is called repeatedly by processing. It is based upon map and reduce function.</p>
+<h2 id="graph-like-data-model">Graph like data model</h2>
+<p>Simple many to many relationship can handle by relational databases but if many to many relationship become complex in your data , it become natural to use graph based data model for your data.</p>
+<p>Graph contains two kind of objects</p>
+<ul>
+<li><strong>vertices:</strong> Known as node or entities</li>
+<li><strong>edge:</strong> known as relationship
+Examples:</li>
+<li><em><strong>Social graph</strong></em> where vertices are people and edges are relationship between people.</li>
+<li><em><strong>The web graph</strong></em> where veritces are web pages and edges are link to other pages.</li>
+<li><em><strong>Road or rail network</strong></em> where vertices define the junctions and edges define the lines between these junctions.</li>
+</ul>
+<p>Graph data model is not limited to homogeneous data like FaceBook uses single graph database to store people, locations, events, check-ins etc.</p>
+<blockquote>
+<p><em><strong>Graph databases are good for evolvability</strong></em></p>
+</blockquote>
+<p>There are mainly two type of models used in graph bases data model.</p>
+<ol>
+<li><strong>Property Graphs:</strong>
+<ul>
+<li>vertices consist of
+<ul>
+<li>unique identifier,</li>
+<li>set of outgoing edges,</li>
+<li>set of incoming edges and collection of properties (key, value pair).</li>
+</ul>
+</li>
+<li>Edges consist of
+<ul>
+<li>unique identifier,</li>
+<li>the vertex at which the edge start (tail vertex),</li>
+<li>the vertex at which edge ends (head vertex),</li>
+<li>label to describe relationship between two vertices</li>
+<li>a collection of properties (key, value pair)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Triple store:</strong>
+All information store in form of very simple three part statements <em><strong>subject, predicate and object</strong></em>.
+_:lucy a        :Person
+_:lucy :name    :&ldquo;Lucy&rdquo;
+_:lucy :bornIn  _:idaho
+_:idaho a       :Location</li>
+</ol>
+<h2 id="document-databases-vs-graph-databases">Document databases vs Graph databases</h2>
+<ul>
+<li>Document database target use cases where individual documents is self contains and relationship between documents are rare.</li>
+<li>Graph database target use case is in opposite direction and target use cases where anything is potentially connected to everything.</li>
+<li>Both don&rsquo;t require schema enforcement hence good for adopt change in requirement.</li>
+</ul>
 
 
     

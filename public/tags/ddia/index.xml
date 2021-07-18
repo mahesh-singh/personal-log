@@ -14,7 +14,10 @@
       <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://maheshlogs.dev/posts/data-model-and-query-language/</guid>
-      <description>This is a content from ch 02 - updates</description>
+      <description>Table of content  Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval (coming soon&amp;hellip;)  Relational model vs Document model Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).
+NoSQL - Not only SQL
+Need of NoSQL
+ Greater scalability Free and open source Desire for a more dynamic and expressive data model Schema flexibility  Polyglot persistence</description>
     </item>
     
     <item>
