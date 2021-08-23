@@ -81,6 +81,7 @@ There are mainly two type of models used in graph bases data model.
     _:idaho a       :Location
 
 ## Document databases vs Graph databases
+
 - Document database target use cases where individual documents is self contains and relationship between documents are rare.
 - Graph database target use case is in opposite direction and target use cases where anything is potentially connected to everything.
 - Both don't require schema enforcement hence good for adopt change in requirement. 
