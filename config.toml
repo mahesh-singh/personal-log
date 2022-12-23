@@ -1,7 +1,7 @@
 baseURL = "https://maheshlogs.dev/"
 languageCode = "en-us"
 title = "Mahesh's personal blog"
-theme = "carlisle-master"
+theme = "hugo-profile"
 paginate = 5
 
 copyright = "© Copyright notice"

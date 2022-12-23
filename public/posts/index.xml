@@ -14,10 +14,10 @@
       <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://maheshlogs.dev/posts/data-model-and-query-language/</guid>
-      <description>Table of content  Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval (coming soon&amp;hellip;)  Relational model vs Document model Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).
+      <description>Table of content Chapter 01 - Reliable Scalable and Maintainable Applications Chapter 02 - Data Model and Query Language Chapter 03 - Storage and Retrieval (coming soon&amp;hellip;) Relational model vs Document model Relational model: Data is organized into relations (tables), where each relation is an unordered collection of tuples(rows).
 NoSQL - Not only SQL
 Need of NoSQL
- Greater scalability Free and open source Desire for a more dynamic and expressive data model Schema flexibility  Polyglot persistence</description>
+Greater scalability Free and open source Desire for a more dynamic and expressive data model Schema flexibility Polyglot persistence</description>
     </item>
     
     <item>
@@ -28,43 +28,7 @@ Need of NoSQL
       <guid>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</guid>
       <description>Whenever I read a book, I try to underline things and later try to convert into digital notes. It almost become two phase revision of the book. These notes are from Martin Kleppmann&amp;rsquo;s book: Designing Data-Intensive Applications.
 Disclaimers:
- These notes are not a substitute of the book. These notes are from my understanding of the topic and typed manually (Yes I prefer physical book over digital one) . There might be the case when I missed something.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://maheshlogs.dev/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://maheshlogs.dev/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://maheshlogs.dev/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://maheshlogs.dev/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://maheshlogs.dev/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+These notes are not a substitute of the book. These notes are from my understanding of the topic and typed manually (Yes I prefer physical book over digital one) . There might be the case when I missed something.</description>
     </item>
     
   </channel>
