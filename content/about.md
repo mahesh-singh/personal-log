@@ -14,3 +14,4 @@ I’m particularly interested in building and managing high performing software 
 Apart from computers, I really enjoy reading, walking, playing with my daughters.
 
 If you have any questions or just want to chat, you can drop me an [email](mailto:singh.mahesh@gmail.com).
+<a rel="me" href="https://mastodon.social/@maheshsingh">Mastodon</a>

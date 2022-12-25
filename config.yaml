@@ -129,11 +129,11 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+        - icon: fab fa-mastodon
+          url: https://mastodon.social/@maheshsingh"
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        # - icon: /fav.png
+        #   url: "https://example.com"
 
   # About
   # about:
@@ -350,10 +350,8 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
-
+      Mastodon: https://mastodon.social/@maheshsingh
+    
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
