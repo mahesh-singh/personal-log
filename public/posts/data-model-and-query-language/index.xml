@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter-02 Data model and query language on Mahesh Personal Site</title>
+    <link>https://maheshlogs.dev/posts/data-model-and-query-language/</link>
+    <description>Recent content in Chapter-02 Data model and query language on Mahesh Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/posts/data-model-and-query-language/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

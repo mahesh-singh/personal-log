@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Mahesh Personal Site</title>
+    <link>https://maheshlogs.dev/about/</link>
+    <description>Recent content in About on Mahesh Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Apr 2019 21:37:58 +0530</lastBuildDate><atom:link href="https://maheshlogs.dev/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

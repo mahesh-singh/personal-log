@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mahesh&#39;s personal blog</title>
+    <title>Posts on Mahesh Personal Site</title>
     <link>https://maheshlogs.dev/posts/</link>
-    <description>Recent content in Posts on Mahesh&#39;s personal blog</description>
+    <description>Recent content in Posts on Mahesh Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Copyright notice</copyright>
     <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter-02 Data model and query language</title>

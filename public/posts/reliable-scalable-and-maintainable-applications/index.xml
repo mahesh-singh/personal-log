@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter01 - Reliable Scalable and Maintainable Applications on Mahesh Personal Site</title>
+    <link>https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/</link>
+    <description>Recent content in Chapter01 - Reliable Scalable and Maintainable Applications on Mahesh Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maheshlogs.dev/posts/reliable-scalable-and-maintainable-applications/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
