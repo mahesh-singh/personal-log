@@ -1,4 +1,19 @@
+:root {
+    --color-dark: #1a1a1a;
+    --color-light: #fafafa;
+    --color-primary: #1a8fe3;
+    --size-step-0: clamp(1rem, calc(0.96rem + 0.22vw), 1.13rem);
+    --size-step-1: clamp(1.25rem, calc(1.16rem + 0.43vw), 1.5rem);
+    --size-step-2: clamp(1.56rem, calc(1.41rem + 0.76vw), 2rem);
+    --size-step-3: clamp(1.95rem, calc(1.71rem + 1.24vw), 2.66rem);
+    --size-step-4: clamp(2.44rem, calc(2.05rem + 1.93vw), 3.55rem);
+    --spacing: 1.5rem;
+    --font-stack: 'Atkinson Hyperlegible', sans-serif;
+    --code-background-color: var(--color-dark);
+    --code-color: var(--color-light);
+  }
 body {
+   
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
@@ -28,15 +43,6 @@ a {
     font-weight: 400;
 }
 
-.bear::before {
-    content: "ᕦʕ •ᴥ•ʔᕤ";
-    font-weight: 400;
-}
-
-.bear:hover::before {
-    content: "ᕙʕ ಠᴥಠʔᕗ";
-    font-weight: 400;
-}
 
 nav a {
     margin-right: 10px;
@@ -170,7 +176,7 @@ ul.blog-posts li a:visited {
 #disqus_thread {
     margin-top: 40px;
 }
-
+ 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #01242e;
