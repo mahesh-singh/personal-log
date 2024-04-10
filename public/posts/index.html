@@ -7,44 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Post list</title>
-     <style>
-      .main {
-        word-wrap: break-word;
-        font-family: "Roboto Mono", monospace, -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-        font-size: 16px;
-        line-height: 1.5;
-      }
-
-      section {
-        margin-top: 40px;
-      }
-    </style>
+     
 </head>
-<body>
+<body class="max-w-xl">
  
   <header>
-    <a class="title" href="/"> <h2>Thought logs</h2></a>
     <nav>
-      <a href="/">Home</a> | 
-      <a target="_blank" href="https://docs.google.com/document/d/16aBuErrGzQ__j8H7UxdqDWfWpXsS5fL2bgCOEnA0WtE/edit?usp=sharing" >Resume</a> | 
-      <a href="posts/index.html">Posts</a> |
-      <a href="https://calendly.com/mahesh-singh/">Block my calendar</a>
+      <a class="mr-3 lighter no-underline whitespace-nowrap" href="/">Home</a> | 
+      <a class="mr-3 lighter no-underline whitespace-nowrap" target="_blank" href="https://docs.google.com/document/d/16aBuErrGzQ__j8H7UxdqDWfWpXsS5fL2bgCOEnA0WtE/edit?usp=sharing" >Resume</a> | 
+      <a class="mr-3 lighter no-underline whitespace-nowrap" href="posts/index.html">Posts</a>
   </nav>
-    
+     <h2>All blog posts</h2>
+   
 </header>
 <main>
   <content>
-    <ul class="blog-posts">
+    <ul class="no-bullet post-list">
       <li>
         <span>
             <i>
-                <time datetime="2023-09-21" pubdate>
+                <time datetime="2023-09-21" class="post-date lighter">
                     21 Sep, 2023
                 </time>
             </i>
         </span>
-        <a href="back-of-envelope-calculations-capacity-planning/index.html">Back of the Envelope Calculations (Capacity Planning)</a>
+        <a class="post-link" href="back-of-envelope-calculations-capacity-planning/index.html">Back of the Envelope Calculations (Capacity Planning)</a>
     </li>
+    <li>
+      <span>
+          <i>
+              <time datetime="2023-09-21" class="post-date lighter">
+                  21 Sep, 2023
+              </time>
+          </i>
+      </span>
+      <a class="post-link" href="back-of-envelope-calculations-capacity-planning/index.html">Back of the Envelope Calculations (Capacity Planning)</a>
+  </li>
+  <li>
+    <span>
+        <i>
+            <time datetime="2023-09-21" class="post-date lighter">
+                21 Sep, 2023
+            </time>
+        </i>
+    </span>
+    <a class="post-link" href="back-of-envelope-calculations-capacity-planning/index.html">Back of the Envelope Calculations (Capacity Planning)</a>
+</li>
     </ul>
   </content>
 </main>
